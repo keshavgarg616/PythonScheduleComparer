@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ICal</title>
+</head>
+<body bgcolor="#181a1b" text="#e8e6e3">
+    <form method="POST" action="/savefile" enctype="multipart/form-data">
+        <label for="sched">Schedule Upload:<br><br>User ID: </label>
+        <input type="text" name="name"><br>
+        <input type="file" id="sched" name="sched" accept=".ics">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
